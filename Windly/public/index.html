@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#1a365d" />
+
+    <!-- Primary SEO Meta Tags -->
+    <title>Windly 🌩️🌪️</title>
+    <meta name="title" content="Windly 🌩️🌪️" />
+    <meta name="description" content="Windly هو تطبيق الطقس الأكثر دقة وسهولة في الاستخدام. احصل على توقعات الطقس المحدثة لحظياً، درجات الحرارة، الرطوبة، وسرعة الرياح لأي مدينة في العالم. يدعم اللغة العربية والإنجليزية مع تصميم أنيق وسهل الاستخدام." />
+    <meta name="keywords" content="الطقس, توقعات الطقس, درجة الحرارة, الرطوبة, سرعة الرياح, طقس اليوم, توقعات 5 أيام, weather, forecast, temperature, humidity, wind speed, weather app, arabic weather, عربي" />
+    <meta name="author" content="Windly Weather App" />
+    <meta name="robots" content="index, follow" />
+    <meta name="language" content="Arabic" />
+    <meta name="revisit-after" content="1 days" />
+
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://windly.netlify.app/" />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://windly.netlify.app/" />
+    <meta property="og:title" content="Windly 🌩️🌪️" />
+    <meta property="og:description" content="احصل على توقعات الطقس الدقيقة والمحدثة لحظياً مع Windly. تصميم أنيق، دعم للغة العربية والإنجليزية، وبيانات شاملة عن الطقس لأي مدينة في العالم." />
+    <meta property="og:image" content="https://i.imgur.com/39swzZG.jpeg" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content="Windly Weather App - تطبيق الطقس الذكي" />
+    <meta property="og:site_name" content="Windly Weather App" />
+    <meta property="og:locale" content="ar_EG" />
+    <meta property="og:locale:alternate" content="en_US" />
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="https://windly.netlify.app/" />
+    <meta property="twitter:title" content="Windly 🌩️🌪️" />
+    <meta property="twitter:description" content="احصل على توقعات الطقس الدقيقة والمحدثة لحظياً مع Windly. تصميم أنيق، دعم للغة العربية والإنجليزية، وبيانات شاملة عن الطقس." />
+    <meta property="twitter:image" content="https://i.imgur.com/39swzZG.jpeg" />
+    <meta property="twitter:image:alt" content="Windly Weather App - تطبيق الطقس الذكي" />
+    <meta name="twitter:creator" content="@WindlyApp" />
+    <meta name="twitter:site" content="@WindlyApp" />
+
+    <!-- Additional SEO Meta Tags -->
+    <meta name="application-name" content="Windly" />
+    <meta name="msapplication-TileColor" content="#1a365d" />
+    <meta name="msapplication-TileImage" content="https://i.imgur.com/39swzZG.jpeg" />
+    <meta name="msapplication-config" content="%PUBLIC_URL%/browserconfig.xml" />
+
+    <!-- Geo Meta Tags -->
+    <meta name="geo.region" content="EG" />
+    <meta name="geo.placename" content="Global Weather Service" />
+    <meta name="ICBM" content="30.0444, 31.2357" />
+
+    <!-- Mobile Optimization -->
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="apple-mobile-web-app-title" content="Windly" />
+
+    <!-- Preload Critical Resources -->
+    <link rel="preload" href="%PUBLIC_URL%/fonts/ar/Vazirmatn-Regular.ttf" as="font" type="font/ttf" crossorigin />
+    <link rel="preconnect" href="https://api.openweathermap.org" />
+    <link rel="dns-prefetch" href="https://api.openweathermap.org" />
+    <link rel="preconnect" href="https://openweathermap.org" />
+    <link rel="dns-prefetch" href="https://openweathermap.org" />
+
+    <!-- Alternative Languages -->
+    <link rel="alternate" hreflang="ar" href="https://windly.netlify.app/" />
+    <link rel="alternate" hreflang="en" href="https://windly.netlify.app/en" />
+    <link rel="alternate" hreflang="x-default" href="https://windly.netlify.app/" />
+
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebApplication",
+      "name": "Windly",
+      "alternateName": "Windly Weather App",
+      "url": "https://windly.netlify.app/",
+      "description": "تطبيق الطقس الذكي الذي يوفر توقعات دقيقة ومحدثة لحظياً لأي مدينة في العالم مع دعم اللغة العربية والإنجليزية",
+      "applicationCategory": "Weather Application",
+      "operatingSystem": "Web Browser",
+      "browserRequirements": "Requires JavaScript. Requires HTML5.",
+      "softwareVersion": "1.0",
+      "author": {
+        "@type": "Organization",
+        "name": "Windly Team"
+      },
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "USD"
+      },
+      "screenshot": "https://i.imgur.com/39swzZG.jpeg",
+      "featureList": [
+        "توقعات الطقس الحالية والمستقبلية",
+        "دعم اللغة العربية والإنجليزية",
+        "تحديد الموقع التلقائي",
+        "بحث عن المدن",
+        "توقعات لمدة 5 أيام",
+        "معلومات مفصلة عن الطقس"
+      ],
+      "inLanguage": ["ar", "en"],
+      "isAccessibleForFree": true
+    }
+    </script>
+
+    <!-- Icons -->
+    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="%PUBLIC_URL%/logo192.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="%PUBLIC_URL%/favicon.ico" />
+    <link rel="icon" type="image/png" sizes="16x16" href="%PUBLIC_URL%/favicon.ico" />
+    <link rel="mask-icon" href="%PUBLIC_URL%/logo192.png" color="#1a365d" />
+
+    <!-- Manifest -->
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+
+    <!-- Security Headers -->
+    <meta http-equiv="X-Content-Type-Options" content="nosniff" />
+    <meta http-equiv="X-Frame-Options" content="DENY" />
+    <meta http-equiv="X-XSS-Protection" content="1; mode=block" />
+    <meta http-equiv="Referrer-Policy" content="strict-origin-when-cross-origin" />
+  </head>
+  <body>
+    <noscript>
+      <div style="text-align: center; padding: 20px; font-family: Arial, sans-serif; direction: rtl;">
+        <h1>🌩️ Windly - تطبيق الطقس الذكي</h1>
+        <p>عذراً، تحتاج إلى تفعيل JavaScript لاستخدام تطبيق Windly للطقس.</p>
+        <p>يرجى تفعيل JavaScript في متصفحك والمحاولة مرة أخرى.</p>
+        <hr />
+        <p>Sorry, you need to enable JavaScript to use Windly Weather App.</p>
+        <p>Please enable JavaScript in your browser and try again.</p>
+      </div>
+    </noscript>
+    <div id="root"></div>
+  </body>
+</html>

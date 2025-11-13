@@ -1,0 +1,38 @@
+# https://www.robotstxt.org/robotstxt.html
+User-agent: *
+Disallow:
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://windly.netlify.app/sitemap.xml
+
+# Crawl-delay for respectful crawling
+Crawl-delay: 1
+
+# Allow all search engines to crawl
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: Slurp
+Allow: /
+
+User-agent: facebookexternalhit
+Allow: /
+
+User-agent: Twitterbot
+Allow: /
+
+# Block unnecessary paths
+Disallow: /static/
+Disallow: /*.json$
+Disallow: /build/static/js/
+Disallow: /build/static/css/
+
+# Allow important resources
+Allow: /static/media/
+Allow: /fonts/
+Allow: /locales/
