@@ -1,7 +1,7 @@
 import { createSlice, createAsyncThunk } from '@reduxjs/toolkit';
 import axios from 'axios';
 
-const API_KEY = "6fb51e48da7b9f2cd8d516e08402a445";
+const API_KEY = "67";
 
 
 export const fetchWeather = createAsyncThunk(
